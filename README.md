@@ -1,2 +1,1 @@
-# Weather-app
-A simple weather app using OpenWeatherMap API
+A simple weather app in flutter using OpenWeatherMap API.
