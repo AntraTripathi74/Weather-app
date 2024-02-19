@@ -55,5 +55,24 @@
       });
     });
   </script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js"></script>
+  <script>
+    
+    var firebaseConfig = {
+      apiKey: "AIzaSyBwMsNAtGe2S9HhawK399-KbPUDKdNSS90",
+      authDomain: "weatherapp-flutter-ac182.firebaseapp.com",
+      projectId: "weatherapp-flutter-ac182",
+      storageBucket: "weatherapp-flutter-ac182.appspot.com",
+      messagingSenderId: "106514800953",
+      appId: "1:106514800953:web:48808159eaf1b4918548e8",
+      measurementId: "G-7PXLCB1WB6"
+    };
+  
+
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
 </html>
